@@ -1,5 +1,3 @@
-"""Pack solution source files into solution.json."""
-
 import sys
 from pathlib import Path
 
