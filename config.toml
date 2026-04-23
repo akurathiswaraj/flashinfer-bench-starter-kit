@@ -1,8 +1,8 @@
 [solution]
-name        = "swaraj-gdn-prefill-v1"
-definition  = "gdn_prefill_qk4_v8_d128_k_last"
-author      = "swaraj"
+name = "swaraj-gdn-v1"
+definition = "gdn_decode_qk4_v8_d128_k_last"
+author = "swaraj"
 
 [build]
-language    = "triton"
+language = "triton"
 entry_point = "kernel.py::kernel"
